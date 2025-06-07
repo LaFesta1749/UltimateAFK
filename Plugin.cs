@@ -18,7 +18,7 @@ namespace UltimateAFK
         public override Version RequiredExiledVersion => new(9, 6, 0);
 
         private PlayerEventHandler _handler = null!;
-
+         
         public override void OnEnabled()
         {
             Instance = this;
